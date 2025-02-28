@@ -15,4 +15,14 @@ const Home = () => {
   );
 };
 
+const Home = ({ data }) => {
+  if (!data) return <div>Loading...</div>; // Fallback, falls Daten fehlen
+  return (
+    <div>
+      <Header />
+      <h1>{data.title}</h1>
+    </div>
+  );
+};
+
 export default Home;
