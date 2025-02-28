@@ -1,0 +1,27 @@
+{
+  "name": "seo-tool-starter-2024",
+  "version": "1.0.0",
+  "description": "Ein komplettes SEO-Tool mit KI-Integration, kostenlosen APIs und modernem Design.",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [
+    "SEO",
+    "tool",
+    "nextjs",
+    "starter"
+  ],
+  "author": "AlpayCenk",
+  "license": "MIT",
+  "dependencies": {
+    "next": "12.0.7",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "node-fetch": "2.6.1",
+    "openai": "2.0.0"
+  }
+}
